@@ -9,28 +9,57 @@
 /* general styles */
 
 .container {
-	max-width: 1000px;
+	max-width: 75%;
 	margin-inline: auto;
 	padding-inline: 1rem;
 }
-
+.btn{
+	border-radius: 30px;
+	padding: 15px;
+	border-width: 0px;
+}
 /* header */
 
 .navbar {
 	height: 4rem; /* TODO: check the value */
-	background-color: cyan; /* TODO: check the value */
+	background-color: #404EED; /* TODO: check the value */
 }
-
+.navbar .container > * {
+	display: flex;
+	align-items: center;
+}
+.nav-options{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+li{
+	list-style: none;
+}
+li a{
+	text-decoration: none;
+	color: white;
+}
+.links{
+	width: 60%;
+}
+.login{
+	display: flex;
+	justify-content: center;
+}
+.logo{
+	justify-content: center;
+}
+.logo, .login{
+	width: 20%;
+}
 .navbar .container {
 	display: flex;
 	justify-content: space-between;
 	align-items: stretch;
 	height: 100%;
-}
-
-.navbar .container > * {
-	display: flex;
-	align-items: center;
 }
 
 .navbar .container > *:hover {
