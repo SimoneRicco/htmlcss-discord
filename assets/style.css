@@ -19,6 +19,12 @@
 	padding: 10px 15px;
 	border-width: 0px;
 }
+h1{
+	font-size: 4rem;
+}
+h2{
+	font-size: 2.5rem;
+}
 /* header */
 
 .navbar {
@@ -93,7 +99,12 @@ li a{
 	margin-right: 15px;
 }
 /* main */
-
+.text > p{
+	line-height: 1.5rem;
+}
+.text > h2{
+	margin-bottom: 2rem;
+}
 main section {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
@@ -118,13 +129,32 @@ main section {
 .section-feature .text {
 	flex: 0 0 40%;
 }
-
+.section-full{
+	text-align: center;
+}
+.container > .download-for-mac{
+	background-color: dodgerblue;
+	color: white;
+	margin-top: 15px;
+}
+.ready{
+	background-image: url(img/stars.svg);
+	width: 50%;
+	height: 3rem;
+	margin: auto;
+}
 /* footer */
-
+.ita{
+	height: 1rem;
+}
 footer {
 	padding-top: 4rem;
 	padding-bottom: 2rem;
 	background-color: black; /* TODO: check value */
+	color: white;
+}
+.footer-column ul:first-child{
+	color: dodgerblue;
 }
 
 footer .footer-top {
@@ -145,4 +175,9 @@ footer .column-links {
 footer .footer-bottom {
 	display: flex;
 	justify-content: space-between;
+}
+.social-icons{
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
 }
