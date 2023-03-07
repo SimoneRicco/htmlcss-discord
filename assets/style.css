@@ -52,6 +52,7 @@ li a{
 }
 .logo{
 	justify-content: center;
+	color: white;
 }
 .logo, .login{
 	width: 20%;
