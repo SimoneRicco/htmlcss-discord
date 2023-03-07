@@ -153,8 +153,11 @@ footer {
 	background-color: black; /* TODO: check value */
 	color: white;
 }
-.footer-column ul:first-child{
+.footer-column  li:first-child{
 	color: dodgerblue;
+}
+footer .footer-column{
+	line-height: 2rem;
 }
 
 footer .footer-top {
@@ -175,9 +178,13 @@ footer .column-links {
 footer .footer-bottom {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 .social-icons{
 	width: 40%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+}
+footer .blu{
+	color: dodgerblue;
 }
