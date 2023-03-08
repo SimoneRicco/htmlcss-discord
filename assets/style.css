@@ -8,7 +8,13 @@
 }
 
 /* general styles */
-
+.wave, .wave-reverse{
+	width: 100%;
+	display: block;
+}
+.wave-reverse{
+	transform: rotateX(180deg);
+}
 .container {
 	max-width: 75%;
 	margin-inline: auto;
